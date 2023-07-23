@@ -1,0 +1,63 @@
+div{
+    margin-bottom:15px;
+  }
+  label{
+    display:block;
+    font-weight: bold;
+    color: antiquewhite;
+  }
+  hr{
+    background-color: brown;
+    height: 5px;
+    border-color: brown;
+    border-radius:10px;
+    border-style: none;
+  }
+  #title,#description{
+    text-align:center
+  }
+  #cont{
+    border-radius:5px;
+    display:grid;
+    background-color:brown;
+    width:fit-content;
+    justify-items: center;
+    align-items:center;
+    align-content: center;
+    margin-left: auto;
+    margin-right:auto ;
+    padding: 10px;
+    color:black;
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  body{
+    background:rgb(172, 120, 53);
+  }
+  #name,#email,#number,#dropdown{
+    width: 400px;
+    height:30px;
+    border-radius:10px;
+    border-style: none;
+    background-color: white;
+  }
+  textarea{
+    height: 100px;
+    width: 400px;
+  }
+  input[type="submit"]{
+    width:400px;
+    height:25px;
+    background-color: rgb(58, 185, 58);
+    border-radius:10px;
+    border-style:none;
+    color: white;
+  }
+
+  #title,#description{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  input:hover{
+    border-color: rgb(255, 255, 255);
+  }
