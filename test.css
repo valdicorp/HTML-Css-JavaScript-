@@ -19,7 +19,7 @@ div{
   #cont{
     border-radius:5px;
     display:grid;
-    background-color:brown;
+    background-color:rgba(165,42,42,1);
     width:fit-content;
     justify-items: center;
     align-items:center;
@@ -30,9 +30,10 @@ div{
     color:black;
     font-size:large;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 0px 20px 0px rgba(165,42,42,1);
   }
   body{
-    background:rgb(172, 120, 53);
+    background:rgba(172, 120, 53,1);
   }
   #name,#email,#number,#dropdown{
     width: 400px;
@@ -60,4 +61,5 @@ div{
   }
   input:hover{
     border-color: rgb(255, 255, 255);
+    opacity: 0.7;
   }
